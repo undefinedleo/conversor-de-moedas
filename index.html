@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor de Moedas</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de Moedas💰</h1>
+      <img
+        src="https://www.westernunion.com/staticassets/static/cd0ffafac798da5b3c5b028ffaca6d0c/Hero-_-across-the-globe-AU-dollar.svg"
+        class="worldimg"
+        alt=""
+      />
+      <p class="page-subtitle">
+        Realize a conversão de valores da(s) Moeda(s) que deseja
+      </p>
+      <section class="elementosConv">
+        <label for="moeda">Insira o valor</label><br />
+        <input type="number" id="valor" size="2" /><br />
+        <button type="submit" onclick="Converter()" id="dolR">
+          Converter de Dolar para Real
+        </button>
+        <button type="submit" onclick="Converter2()" id="rDol">
+          Converter de Real para Dolar
+        </button>
+        <button type="submit" onclick="Converter3()" id="dolBtc">
+          Converter de Dolar para BTC
+        </button>
+        <button type="submit" onclick="Converter4()" id="rBtc">
+          Converter de Real para BTC
+        </button>
+      </section>
+      <h2 id="valorConvertido"></h2>
+      <!--     <h3 id="warning"></h3> -->
+      <footer>Desenvolvido por Leonardo Laia</footer>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      /><br /><br />
+    </div>
+  </body>
+</html>
